@@ -1,0 +1,291 @@
+body, html, * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bgBlue {
+  background-color: #26303f;
+  transition: 350ms;
+}
+
+.bgTrans {
+  background: none;
+  transition: 350ms;
+}
+
+.show {
+  opacity: 1;
+  transition: 350ms;
+}
+
+.hide {
+  opacity: 0;
+  transition: 350ms;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  margin-left: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btnCyan {
+  background-color: darkturquoise;
+  color: white;
+}
+
+.btnBlue {
+  background-color: powderblue;
+}
+
+.container {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#topbar {
+  z-index: 1;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#topbar * {
+  color: white;
+  display: inline-block;
+  
+}
+
+.logo {
+  font-weight: 700;
+}
+
+#navbar {
+  float: right;
+  color: white;
+  font-size: .8em;
+  font-weight: 300;
+  margin-right: 10px;
+  width: 80%;
+}
+
+#navbar * {
+  float: right;
+  margin-right: 10px;
+  padding: 2px;
+}
+
+#navbar input {
+  width: 15px;
+  border: 0;
+  padding: 2px 0 2px 20px;
+  border-radius: 2px;
+  background: none;
+  background-image: url('../img/search2.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  -webkit-background-size: 16px 16px;
+  background-size: 16px 16px;
+  transition: 350ms;
+}
+
+#navbar input:focus {
+  width: 400px;
+  color: white;
+  background-color: #333;
+}
+
+#banner {
+  overflow: hidden;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+#bannerContent {
+  height: 500px;
+  padding: 180px 200px 200px 200px;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: rgba(0,0,0,0.4);
+  background: linear-gradient(to right, rgba(1,95,189,0.7), rgba(60,200,228,0.7));
+}
+
+#signUp {
+  margin-top: 10px;
+  padding: 15px 35px;
+  font-size: .9em;
+}
+
+/*-------------------SEARCHBOX-------------------*/
+
+#searchBox {
+  margin: -70px auto 30px auto;
+  max-width: 650px;
+  padding: 50px;
+  background-color: #f1f1f1;
+  box-shadow: 1px 2px 30px #999;
+  border: 0;
+  border-radius: 10px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+#searchSection {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+#searchSection input {
+  padding: 10px 10px 10px 50px;
+  flex: 2;
+  background-image: url('../img/search.png');
+  background-position: 20px center;
+  background-repeat: no-repeat;
+  background-color: #dddddd;
+  background-size: 16px 16px;
+  -webkit-background-size: 16px 16px;
+  border: 0;
+}
+
+#searchSection input:focus {
+  outline: none;
+}
+
+#searchtagSection {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  margin-top: 10px;
+}
+
+#searchtagSection span {
+  padding-top: 10px;
+}
+
+.searchTag {
+  padding: 10px;
+}
+
+.heading {
+  text-align: center;
+  margin: 50px;
+  font-size: 2em;
+}
+
+#categories {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.category {
+  width: 335px;
+  height: 250px;
+  margin-bottom: 30px;
+  background-color: #f1f1f1;
+  box-shadow: 1px 5px 30px #999;
+}
+
+.thumb {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.thumb div {
+  background: linear-gradient(to right, rgba(1,95,189,0.7), rgba(60,200,228,0.7));
+  height: 150px;
+  text-align: center;
+  padding-top: 67px;
+  color: white;
+}
+
+.info {
+  display: block;
+  padding: 15px 15px;
+  font-weight: 600;
+}
+
+.info span {
+  float: right;
+  font-weight: 300;
+}
+
+.map-responsive iframe {
+  width: 100%;
+  display: block;
+  
+}
+
+/*-------------------FOOTER-------------------*/
+
+#footerBody {
+  color: white;
+  padding: 50px 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footerSection:nth-child(1) {
+  flex: 2;
+}
+
+.footerSection:nth-child(2) {
+  flex: 1;
+}
+
+footer a {
+  color: #f9f9f9;
+}
+
+.footerSection * {
+  display: block;
+}
+#socialMedia {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: row;
+}
+
+#socialMedia a {
+  margin-right: 8px;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="device-width, initial-scale=1">
+  <title>WebCodes</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="scrollNav();">
+
+  <div id="topbar" class="">
+    <div class="container">
+      <p class="logo">WebCode</p>
+      <div id="navbar">
+            <input type="text" placeholder="search" id="navSearch" onkeyup="document.getElementById('navSearch').value = this.value;">
+              <a href="#">Contact Us</a>
+              <a href="#">Services</a>
+              <a href="#">About</a>
+      </div>
+    </div>
+      
+  </div>
+
+  <div class="container-full">
+    <div id="banner" style="background-image: url('img/header.jpg');">
+      <div id="bannerContent">
+        <h1>Learn from the best!</h1>
+        <p>From the world class tech giants and expert computer scientists</p>
+        <button id="signUp" class="btn btnCyan">Sign Up</button>
+      </div>
+      
+    </div>
+  </div>
+
+  <div id="searchBox">
+    <div id="searchSection">
+      <input id="bodySearch" type="text" placeholder="Search courses" onkeyup="document.getElementById('navSearch').value = this.value;"> 
+    <button class="btn btnCyan">Search</button> <br>
+    </div>
+    
+    <div id="searchtagSection"><span>Popular:</span>
+      <button class="searchTag btn btnBlue">Photoshop</button>
+      <button class="searchTag btn btnBlue">HTML</button>
+      <button class="searchTag btn btnBlue">CSS</button>
+      <button class="searchTag btn btnBlue">Graphic Design</button>
+    </div>
+  </div>
+
+  <!-- --------------------- CATEGORIES --------------------- -->
+  <!-- ------------------------------------------------------ -->
+<h2 class="heading">Choose a category</h2>
+  <div class="container">
+    
+
+    <div id="categories">
+      <div class="category">
+        <div class="thumb" style="background-image:url(img/animation.jpg);">
+          <div>Animation</div>
+        </div>
+        <span class="info">Courses:<span>10</span></span>
+        <span class="info">Students:<span>934</span></span>
+      </div>
+
+      <div class="category">
+        <div class="thumb" style="background-image:url(img/webdesign.jpg);">
+          <div>Web Design</div>
+        </div>
+        <span class="info">Courses:<span>15</span></span>
+        <span class="info">Students:<span>1054</span></span>
+      </div>
+
+      <div class="category">
+        <div class="thumb" style="background-image:url(img/webdev.jpg);">
+          <div>Web Development</div>
+        </div>
+        <span class="info">Courses:<span>11</span></span>
+        <span class="info">Students:<span>15,363</span></span>
+      </div>
+
+      <div class="category">
+        <div class="thumb" style="background-image:url(img/banking.jpg);">
+          <div>Banking</div>
+        </div>
+        <span class="info">Courses:<span>11</span></span>
+        <span class="info">Students:<span>15,363</span></span>
+      </div>
+
+      <div class="category">
+        <div class="thumb" style="background-image:url(img/finance.jpg);">
+          <div>Finance</div>
+        </div>
+        <span class="info">Courses:<span>11</span></span>
+        <span class="info">Students:<span>15,363</span></span>
+      </div>
+
+      <div class="category">
+        <div class="thumb" style="background-image:url(img/management.jpg);">
+          <div>Management</div>
+        </div>
+        <span class="info">Courses:<span>11</span></span>
+        <span class="info">Students:<span>15,363</span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------------- MAP --------------------- -->
+  <!-- ----------------------------------------------- -->
+
+<!--  <div id="map">
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=maac&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">website erstellen</a></div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+  </div>-->
+
+  <h3 class="heading">Find Us</h3>
+
+  <div class="map-responsive">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14725.742087284647!2d88.34713098419189!3d22.67482555093203!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1540031411879" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  
+
+  <!-- --------------------- FOOTER --------------------- -->
+  <!-- -------------------------------------------------- -->
+
+  <footer class="bgBlue">
+    <div class="container" id="footerBody">
+      <div class="footerSection">
+        <h4>About Us</h4>
+        <p>Some detailed content forever will be here forever Some detailed content will be here will be here Some detailed content forever</p>
+      </div>
+
+      <div class="footerSection">
+        <h4>Links</h4>
+        <a href="#">Courses</a>
+        <a href="#">Teachers</a>
+        <a href="#">Certificates</a>
+        <a href="#">Campus</a>
+      </div>
+
+      <div class="footerSection">
+        <h4>Social Media</h4>
+        <div id="socialMedia">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
